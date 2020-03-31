@@ -1,0 +1,153 @@
+body {
+  background-color: #21252C;
+  color: white;
+  font-family: Montserrat;
+  font-size: 25px;
+  margin: 0px;
+}
+
+p {
+  font-weight: lighter;
+  font-size: 0.5em;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 0.8em;
+}
+
+#nav {
+  height: 50px;
+  font-size: 0.6em;
+}
+
+#nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#nav li {
+  display: inline;
+  padding: 15px;
+  vertical-align: middle;
+}
+
+#nav a {
+  text-decoration: none;
+  padding: 8px 40px 8px 80px;
+  color: white;
+  vertical-align: middle;
+}
+
+#nav a:hover {
+  color: grey;
+  text-decoration: underline;
+}
+
+#Head {
+  background-image: url("bulb.png");
+}
+
+#intro {
+  text-align: center;
+  padding-top: 145px;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+#subintro {
+  padding-top: 30px;
+  padding-left: 165px;
+  padding-right: 165px;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.image {
+  width: 592px;
+  float: left;
+  margin-left: 50px;
+}
+
+.subcontent {
+  font-weight: 500;
+  font-size: 1.6em;
+}
+
+.subbody .tower {
+  position: absolute;
+  top: 900px;
+  left: 100px;
+  width: 320px;
+}
+
+.subbody .landscape {
+  position: absolute;
+  top: 900px;
+  left: 546.8px;
+  width: 320px;
+}
+
+.subbody .mona {
+  position: absolute;
+  top: 900px;
+  left: 993.6px;
+  width: 320px;
+}
+
+#pcontent {
+  font-size: 1em;
+}
+
+#sub1 {
+  position: absolute;
+  top: 1160px;
+  left: 100px;
+  width: 320px;
+  font-size: 0.8em;
+}
+
+#sub2 {
+  position: absolute;
+  top: 1160px;
+  left: 546.8px;
+  width: 320px;
+  font-size: 0.8em;
+}
+
+#sub3 {
+  position: absolute;
+  top: 1160px;
+  left: 993.6px;
+  width: 320px;
+  font-size: 0.8em;
+}
+
+#footer {
+  background-color: #333740;
+  position: absolute;
+  top: 1350px;
+  width: 1366px;
+  height: 50px;
+  padding: 30px;
+}
+
+span {
+  position: relative;
+  left: 1150px;
+}
+
+span:hover {
+  color: gray;
+  text-decoration: underline;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
